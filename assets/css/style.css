@@ -1,0 +1,58 @@
+/*
+Created by Czar Ian Echavez for Dulmi Kaluarachchi so that she has a portfolio website where she is able to display her amazing floral arrangements
+*/
+
+/*
+importing fonts
+@import url('link');
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow: visible;
+    background-color: #d80000;
+}
+
+.intro
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #500000;
+    background-image: url(/assets/img/slide1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+
+.intro .inner
+{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content
+{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1
+{
+    font-family: 'Merienda One', 'sans-serif';
+    color: white;
+    text-shadow: 0 0 100px #500000;
+    font-size: 400%;
+    margin-bottom: 0;
+}
