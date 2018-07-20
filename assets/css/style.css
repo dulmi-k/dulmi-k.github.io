@@ -26,7 +26,7 @@ html, body
     width: 100%;
     margin: auto;
     background-color: #500000;
-    /*background-image: url(/assets/img/slide1.png);*/
+    background-image: url(/assets/img/cover.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: table;
@@ -56,94 +56,3 @@ html, body
     font-size: 400%;
     margin-bottom: 0;
 }
-
-<<<<<<< HEAD
-/*
-Particles taken from:
-https://webdesign.tutsplus.com/tutorials/2-ways-to-create-an-animated-particle-background--cms-30224
-*/
-.particle {
-    position: absolute;
-    border-radius: 50%;
-}
-
-@for $i from 1 through 30 {
-    @keyframes particle-animation-#{$i} {
-        100% {
-            transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-        }
-    }
-    
-    .particle:nth-child(#{$i}){
-        animation: particle-animation-#{$i} 60s infinite;
-        $size: random(5) + 5 + px;
-        opacity: random(100)/100;
-        height: $size;
-        width: $size;
-        animation-delay: -$i * .2s;
-        transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-        background: hsl(random(360), 70%, 50%);
-    }
-}
-
-/**************************************************************/
-=======
-.imgcover
-{
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: table;
-    top: 0;
-}
-
-.fadein {
-    position:absolute;
-    top: 0;
-    text-align: center;
-    margin:auto;
-}
-.fadein img {
-    position:absolute;
-    left:-65px;
-    top:0;
-    -webkit-animation-name: fade;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 6s;
-    animation-name: fade;
-    animation-iteration-count: infinite;
-    animation-duration: 6s;
-}
-
-@-webkit-keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
-@keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
-
-#f1 {
-    background-image: url(/assets/img/slide1.png);
-    background-size: cover;
-}
-#f2 {
-    -webkit-animation-delay: -4s;
-    background-image: url(/assets/img/slide2.png);
-    background-size: cover;
-}
-#f3 {
-    -webkit-animation-delay: -2s;
-    background-image: url(/assets/img/slide3.png);
-    background-size: cover;
-}
->>>>>>> parent of 5b85f17... test cover
