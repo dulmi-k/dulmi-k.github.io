@@ -56,3 +56,34 @@ html, body
     font-size: 400%;
     margin-bottom: 0;
 }
+
+.content h2
+{
+    font-family: 'Merienda One', 'sans-serif';
+    color: white;
+    font-size: 200%;
+    margin-bottom: 30px;
+    padding-bottom: 300px;
+}
+
+.button
+{
+    display: inline;
+    border-radius: 10px;
+    font-family: 'Merienda One', 'sans-serif';
+    color: red;
+    font-size: 100%;
+    padding: 10px 50px;
+    border: solid darkred 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0 0 50px #fff;
+}
+
+.button:hover
+{
+    color: white;
+    border: solid darkred 4px;
+    background: darkred;
+}
