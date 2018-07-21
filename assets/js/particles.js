@@ -20,20 +20,20 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 80,
         density: {
           enable: true,
-          value_area: 800
+          value_area: 1200
         }
       },
       color: {
-        value: '#fff'
+        value: '#ff0000'
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#ff0000'
+          color: '#d40000'
         },
         polygon: {
           nb_sides: 5
@@ -45,17 +45,17 @@ var pJS = function(tag_id, params){
         }
       },
       opacity: {
-        value: 1,
+        value: .4,
         random: false,
         anim: {
           enable: false,
-          speed: 2,
-          opacity_min: 0,
+          speed: 1,
+          opacity_min: 0.1,
           sync: false
         }
       },
       size: {
-        value: 20,
+        value: 10,
         random: false,
         anim: {
           enable: false,
