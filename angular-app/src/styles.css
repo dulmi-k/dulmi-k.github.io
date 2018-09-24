@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+html, body {
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: #d80000;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', 'sans-serif';
+    color: white;
+}
