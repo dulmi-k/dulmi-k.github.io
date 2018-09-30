@@ -4,10 +4,8 @@
 html, body {
     overflow: hidden;
     margin: 0;
-    height: 100%;
-    width: 100%;
     scroll-behavior: smooth;
-    background-color: #d80000;
+    background-color: #be0000;
 }
 
 h1 {
