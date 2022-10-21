@@ -11,7 +11,7 @@
 <div align="center" style="display: flex; flex-direction: row;justify-content: space-evenly;">
   <div>
   
-  [![MIT License](https://img.shields.io/github/license/czar-ec/czar-ec.github.io)](https://img.shields.io/github/license/dulmi-k/dulmi-k.github.io)
+  [![MIT License](https://img.shields.io/github/license/dulmi-k/dulmi-k.github.io)](https://img.shields.io/github/license/dulmi-k/dulmi-k.github.io)
 
   </div>
 </div>
