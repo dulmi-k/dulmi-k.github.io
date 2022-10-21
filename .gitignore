@@ -10,6 +10,7 @@
 **/coverage
 */videos
 */screenshots
+**/deploy
 
 # dependencies
 /node_modules
