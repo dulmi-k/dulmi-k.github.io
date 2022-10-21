@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  # [CzarEc Portfolio]($$PREVIEW_URL$$)
+  # [Portfolio]($$PREVIEW_URL$$)
 
 </div>
 
