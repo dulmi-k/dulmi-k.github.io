@@ -5,8 +5,9 @@
 /tmp
 /out-tsc
 *.log
+.angular/
 
-/coverage
+**/coverage
 */videos
 */screenshots
 
