@@ -3,21 +3,6 @@
 /* mixin imports */
 @import '../../app/app.mixin.scss';
 
-@font-face {
-  font-family: 'Quicksand';
-  src: url('./assets/fonts/Quicksand-Regular.ttf') format('ttf')
-}
-
-@font-face {
-  font-family: 'Share Tech';
-  src: url('./assets/fonts/ShareTech-Regular.ttf') format('ttf')
-}
-
-@font-face {
-  font-family: 'Lato';
-  src: url('./assets/fonts/Lato-Regular.ttf') format('ttf')
-}
-
 /* font */
 $custom-typography: mat-typography-config($font-family: 'Quicksand, Lato');
 
