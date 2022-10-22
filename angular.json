@@ -2,12 +2,17 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
   "projects": {
     "portfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -28,9 +33,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              {
+                "input": "./src/assets/themes/dulmi-red-theme.scss"
+              },
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/particles.js/particles.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -96,7 +106,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           }
